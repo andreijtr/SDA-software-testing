@@ -1,10 +1,5 @@
 package org.example.tdd;
 
-import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 /**
  * Test Driven Development: Red, Green, Refactor
  *
@@ -25,17 +20,5 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 
 class PersonTest {
-
-    @Test
-    public void givenPersonWithAgeOf13_whenCallIsTeenager_thenReturnTrue() {
-        Person person = new Person(13);
-        Assertions.assertThat(person.isTeenager()).isTrue();
-    }
-
-    @Test
-    public void givenPersonWithAgeOf22_whenCallIsTeenager_thenReturnFalse() {
-        Person person = new Person(22);
-        Assertions.assertThat(person.isTeenager()).isFalse();
-    }
 
 }

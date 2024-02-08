@@ -9,7 +9,7 @@ package org.example.calculator;
  *    - also the method checks if 'param2' is 0 and in this case throws an exception
  * 4. method 'factor' receives 2 parameters of type 'int' (ex. param1, param2) and returns their products
  *
- *  For each method write unit tests to assuring it works as expected.
+ *  For each method write unit tests to assure it works as expected.
  */
 public class Calculator {
 

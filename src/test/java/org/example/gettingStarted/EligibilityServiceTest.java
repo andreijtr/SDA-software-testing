@@ -1,9 +1,5 @@
 package org.example.gettingStarted;
 
-import org.assertj.core.api.Assertions;
-
-import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class EligibilityServiceTest {
